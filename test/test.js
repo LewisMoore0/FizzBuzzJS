@@ -7,4 +7,8 @@ describe("FizzBuzz", function() {
         const result = fizzBuzz(3)
         assert.equal(result, "fizz")
     })
+
+    it("returns buzz when give 5", function() {
+        assert.equal(fizzBuzz(5), "buzz")
+    })
 })
