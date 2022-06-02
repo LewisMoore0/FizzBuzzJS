@@ -15,4 +15,8 @@ describe("FizzBuzz", function() {
     it("returns Fizzbuzz when given 15", function() {
         assert.equal(fizzBuzz(15), "FizzBuzz")
     })
+    
+    it ("returns fizz when given 6", function () {
+        assert.equal(fizzBuzz(6), "Fizz")
+    })
 })
