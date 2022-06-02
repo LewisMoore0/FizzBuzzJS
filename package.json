@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/LewisMoore0/FizzBuzzJS/issues"
   },
-  "homepage": "https://github.com/LewisMoore0/FizzBuzzJS#readme"
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
 }
